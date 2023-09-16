@@ -3,8 +3,6 @@ declare -i NUMBER_OF_GAMES=30000
 declare -i NUMBER_OF_EPOCHS=5
 
 export PYTHONPATH='./'
-# Windows:
-#SET PYTHONPATH="./"
 
 python preprocessing/generate_positions_expectations.py \
 	--outputDirectory=./learn_tictactoe/output_tictactoe_generate_positions_expectations_level0 \
